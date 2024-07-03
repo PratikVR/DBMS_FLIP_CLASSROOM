@@ -1,0 +1,45 @@
+:root{
+    --bg-color:white;
+    --font-color:rgb(0, 0, 0);
+}
+*{
+    margin: 1px;
+    padding: 1px;
+    font-style: italic;
+    font-size: 1em;
+    color: var(--font-color);    
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
+textarea{
+    background:var(--bg-color);
+    color: var(--font-color);
+    display: block;
+    width: 90%;
+    height: 15rem;
+    text-overflow: unset;
+}
+:has(input.dark-theme:checked),
+:has(input.dark-theme:checked){
+    --font-color:rgb(0, 225, 255);
+    --bg-color:black;
+}
+button{
+    background: linear-gradient(45deg,blue,pink);
+    outline: none;
+    border:none;
+    cursor: pointer;
+    transition: .3s ease all;
+    position: relative;
+}
+button:hover,button:active{
+    transform: scale(0.8);
+}
+.header-container{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}

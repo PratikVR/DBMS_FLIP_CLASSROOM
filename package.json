@@ -1,0 +1,20 @@
+{
+  "name": "dbms_flip_classroom",
+  "version": "1.0.0",
+  "description": "This project was made for DBMS flip classroom to study MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd Server & node app.js"
+  },
+  "keywords": [
+    "RDBMS",
+    "DBMS",
+    "SQL",
+    "MySQL"
+  ],
+  "author": "Pratik Rathod",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.9.7"
+  }
+}

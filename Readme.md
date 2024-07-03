@@ -1,0 +1,1 @@
+This is a fun little project made by Pratik Rathod to Learn SQL!

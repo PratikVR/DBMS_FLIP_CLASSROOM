@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <title>Practice to Query Your MySQL Database</title>
+    <script src="/socket.io/socket.io.js" defer></script>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <heading class="header-container">
+      <H1 class="site-header">  
+        Practice to Query Your MySQL database!</br>
+      </H1>
+      <h3 class="header-secondary">
+        MadeBy - Pratik Rathod  With  ❤️!</br>
+        -- Burning Curiosity ❤️‍🔥--
+      </h3>
+    </heading>
+    <label for="dark-themeBtn"><h1 style="font: 2em sans-serif;">🌃/🌅<input type="checkbox" class="dark-theme" id="dark-themeBtn" /></h1></label>
+    <form id="Query-This" action="">
+      <fieldset>
+        <legend for="Query" class="lable">Query</legend>
+        <textarea
+          id="Query"
+          required
+        ></textarea>
+        <button type="submit" id="btn">Submit Query</button>
+      </fieldset>
+    </form>
+    <fieldset>
+      <legend>Response:</legend>
+      <div id="result" readonly></div>
+    </fieldset>
+  </body>
+</html>
